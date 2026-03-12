@@ -31,3 +31,4 @@ const maioridade = listaDeUsuarios.filter(usuario => usuario.idade >= 18)
 maioridade.forEach(usuario =>
     console.log(`${usuario.nome} tem ${usuario.idade} anos. `)
 )
+
